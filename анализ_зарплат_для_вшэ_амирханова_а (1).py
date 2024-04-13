@@ -27,7 +27,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import datetime as dt
 
-df = pd.read_excel('/content/three and all without index и пробный без расчета реал зп.xlsx')
+df = pd.read_excel('/content/salary.xlsx')
 df.head(5)
 
 df.info()
